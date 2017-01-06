@@ -7,11 +7,12 @@
     <title>Doctor Lookup</title>
   </head>
   <body>
-    <form id="doctor-form">
+    <div class="container">
+      <h1>Dr Lookup</h1>
       <label for="search"> Enter a symptom to search for a doctor:</label>
       <input id="search" type="text">
-      <button type="submit">Look up your doctor</button>
-    </form>
-    <ul id="solution"></ul>
+      <button class="btn-success" id="doctorSearch">Look up your doctor</button>
+      <div class="showDoctors"></div>
+    </div>
   </body>
 </html>
